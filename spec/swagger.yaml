@@ -1,0 +1,22 @@
+swagger: '2.0'
+info:
+  title: Playola Api
+  description: |
+    # Section One
+
+    ## Subsection One
+    Put all of your stuff here, in `spec/swagger.yaml` in the description section.  You can use markdown.
+      * Markdown is good
+      * Markdown is great
+      * Bla bla bla
+    
+    # How it Appears
+    Each section will appear as it's own section before the rest of your documentation.  Yup.  That's it.
+    
+  version: 1.0.0
+host: api.playola.fm
+schemes:
+  - https
+basePath: /api/v1
+produces:
+  - application/json
